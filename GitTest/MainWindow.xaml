@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="176"/>
+        <Image Height="100" Width="100"/>
+        <Grid>
+            <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Margin="289,68,0,0" VerticalAlignment="Top" Width="191" Height="82"/>
+        </Grid>
+
     </Grid>
 </Window>
